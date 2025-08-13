@@ -3,13 +3,7 @@
 ![Certificate](certificate.png)
 ![Badge](deep-learning-and-reinforcement-learning.png)
 
-Wholesale customer segmentation using **unsupervised machine learning** techniques such as:
-
-- **Clustering:** K-Means, Hierarchical Clustering, DBSCAN  
-- **Dimensionality Reduction:** PCA, t-SNE, UMAP for visualizing high-dimensional data
-
-**Platform:**  
-Built in **Google Colab** as part of the **IBM Data Science** curriculum on **Coursera**.
+---
 
 ## 📜 Project Overview
 
@@ -27,8 +21,8 @@ The workflow includes:
 
 ## 📂 Dataset
 
-**Source:** IMDB Dataset (binary classification — positive / negative reviews)
-**Size:** 50,000 reviews (balanced)
+**Source:** IMDB Dataset (binary classification — positive / negative reviews)  
+**Size:** 50,000 reviews (balanced)  
 **Split:** 80% train, 10% validation, 10% test
 
 ### Example Entry
@@ -46,7 +40,7 @@ The workflow includes:
 
 ![Review length distribution](tokens_reviewlength.png)
 
-* Most reviews are under **500 tokens**, with a small tail up to \~2500 tokens.
+* Most reviews are under **500 tokens**, with a small tail up to \~2500 tokens.  
 * Indicates potential benefits from dimensionality reduction (SVD).
 
 ---
@@ -57,10 +51,10 @@ The workflow includes:
 
 ![Linear Probe Confusion Matrix](linearprobe_val_confusionmatrix.png)
 
-* **True Positives (TP):** 855
-* **True Negatives (TN):** 877
-* **False Positives (FP):** 122
-* **False Negatives (FN):** 146
+* **True Positives (TP):** 855  
+* **True Negatives (TN):** 877  
+* **False Positives (FP):** 122  
+* **False Negatives (FN):** 146  
 
 **Observations:** Strong balance between classes, slightly more false negatives.
 
@@ -70,7 +64,7 @@ The workflow includes:
 
 ![TF-IDF SVD Dense (val)](tf-idf_svd_dense_val_confusionmatrix.png)
 
-* Captures semantic similarity better than raw TF-IDF in some cases.
+* Captures semantic similarity better than raw TF-IDF in some cases.  
 * Fewer false negatives compared to Linear Probe.
 
 ---
@@ -79,46 +73,46 @@ The workflow includes:
 
 ![TF-IDF SVD Dense (test)](tidf_svd_dense_test_confusionmatrix.png)
 
-* Maintains consistent performance from validation to test sets.
+* Maintains consistent performance from validation to test sets.  
 * Minimal overfitting observed.
 
 ---
 
 ## 📈 Key Insights
 
-1. **Dimensionality Reduction (SVD)** improves generalization, especially with high-dimensional sparse vectors.
-2. Linear Probe offers speed and simplicity but slightly lags in recall.
+1. **Dimensionality Reduction (SVD)** improves generalization, especially with high-dimensional sparse vectors.  
+2. Linear Probe offers speed and simplicity but slightly lags in recall.  
 3. Balanced dataset ensures fairness in model evaluation.
 
 ---
 
 ## 🛠 Tech Stack
 
-* **Language:** Python 3.x
-* **Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
-* **ML Models:** Logistic Regression, Linear Probe, TF-IDF + SVD
-* **Environment:** Jupyter / Google Colab
+* **Language:** Python 3.x  
+* **Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn  
+* **ML Models:** Logistic Regression, Linear Probe, TF-IDF + SVD  
+* **Environment:** Jupyter / Google Colab  
 
 ---
 
 ## 🎓 Certification
 
-This work is part of the IBM specialization, fulfilling the **Machine Learning with Python — Course 5 Capstone** project requirements.
-![Certificate](certificate.pdf)
+This work is part of the IBM specialization, fulfilling the **Machine Learning with Python — Course 5 Capstone** project requirements.  
+
+![Certificate](certificate.png)
 
 ---
 
 ## 📌 Future Work
 
-* Experiment with **BERT-based models** for contextual embeddings.
-* Apply **data augmentation** for handling edge-case reviews.
+* Experiment with **BERT-based models** for contextual embeddings.  
+* Apply **data augmentation** for handling edge-case reviews.  
 * Integrate **Explainable AI (SHAP / LIME)** for interpretability.
 
 ---
 
 ## 👤 Author
 
-**Tamaghna Nag**
-📍 London, UK | Kolkata, India
+**Tamaghna Nag**  
+📍 London, UK | Kolkata, India  
 💼 [LinkedIn](https://www.linkedin.com/in/tamaghna99/) | 🌐 [Portfolio](https://tamaghnatech.in) | 📧 [tamaghnanag04@gmail.com](mailto:tamaghnanag04@gmail.com)
-
