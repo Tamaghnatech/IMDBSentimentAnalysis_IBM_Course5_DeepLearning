@@ -1,7 +1,15 @@
+## <img src="IBM%20Logo.png" alt="IBM Logo" width="40"/> IBM ML Course 5 — IMDB Sentiment Analysis IBM Deep Learning
 
-# ![IBM Logo](https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg)
+![Certificate](certificate.png)
+![Badge](unsupervised-machine-learning.png)
 
-# IMDB Sentiment Analysis — IBM Machine Learning Capstone
+Wholesale customer segmentation using **unsupervised machine learning** techniques such as:
+
+- **Clustering:** K-Means, Hierarchical Clustering, DBSCAN  
+- **Dimensionality Reduction:** PCA, t-SNE, UMAP for visualizing high-dimensional data
+
+**Platform:**  
+Built in **Google Colab** as part of the **IBM Data Science** curriculum on **Coursera**.
 
 ## 📜 Project Overview
 
