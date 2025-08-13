@@ -95,14 +95,6 @@ The workflow includes:
 
 ---
 
-## 🎓 Certification
-
-This work is part of the IBM specialization, fulfilling the **Machine Learning with Python — Course 5 Capstone** project requirements.  
-
-![Certificate](certificate.png)
-
----
-
 ## 📌 Future Work
 
 * Experiment with **BERT-based models** for contextual embeddings.  
