@@ -1,7 +1,7 @@
 ## <img src="IBM Logo.png" alt="IBM Logo" width="40"/> IBM ML Course 5 — IMDB Sentiment Analysis IBM Deep Learning
 
 ![Certificate](certificate.png)
-![Badge](unsupervised-machine-learning.png)
+![Badge](deep-learning-and-reinforcement-learning.png)
 
 Wholesale customer segmentation using **unsupervised machine learning** techniques such as:
 
