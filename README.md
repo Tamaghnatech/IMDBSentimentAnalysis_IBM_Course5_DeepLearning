@@ -1,4 +1,4 @@
-## <img src="IBM%20Logo.png" alt="IBM Logo" width="40"/> IBM ML Course 5 — IMDB Sentiment Analysis IBM Deep Learning
+## <img src="IBM Logo.png" alt="IBM Logo" width="40"/> IBM ML Course 5 — IMDB Sentiment Analysis IBM Deep Learning
 
 ![Certificate](certificate.png)
 ![Badge](unsupervised-machine-learning.png)
