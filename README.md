@@ -103,6 +103,14 @@ The workflow includes:
 
 ---
 
+📓 Notebook Access
+
+The notebook could not be uploaded directly due to metadata rendering issues.
+You can view the full interactive notebook here:
+
+🔗 [IMDB_Sentiment_Analysis_Notebook.ipynb](https://colab.research.google.com/drive/1J_prGw_hzneW9sAcvQoGSQSm6s4fSM7_?usp=drive_link)
+---
+
 ## 👤 Author
 
 **Tamaghna Nag**  
